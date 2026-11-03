@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: order-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orderdb
+    username: order_service
+    # password: provided via SPRING_DATASOURCE_PASSWORD, never stored in files
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false

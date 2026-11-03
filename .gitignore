@@ -1,0 +1,27 @@
+# Build output
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse and VS Code
+.classpath
+.project
+.settings/
+.vscode/
+
+# Local environment and secrets (only .env.example is committed)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
